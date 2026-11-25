@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Tá On Mídia Player",
+    "slug": "ta-on-midia-player",
+    "version": "2.0.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "br.com.taonmidia.player",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK"
+      ]
+    },
+    "plugins": [
+      "expo-av",
+      "expo-screen-orientation"
+    ]
+  }
+}
