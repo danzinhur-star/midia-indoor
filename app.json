@@ -5,8 +5,15 @@
     "version": "2.0.0",
     "orientation": "landscape",
     "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#090e1c",
+      "resizeMode": "contain"
+    },
     "android": {
       "package": "br.com.taonmidia.player",
+      "adaptiveIcon": {
+        "backgroundColor": "#090e1c"
+      },
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE",
